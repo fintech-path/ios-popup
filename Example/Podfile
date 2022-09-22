@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HCCPopup_Example' do
+  pod 'SwiftFormat/CLI'
+  pod 'HCCPopup', :path => '../'
+end
